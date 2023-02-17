@@ -19,8 +19,8 @@
     <nav class="navbar bg-info">
       <a class="navbar-brand text-light p-3" href="/">Note Taker </a>
       <div class="icons">
-        <i class="fas fa-save text-light save-note"></i>
-        <i class="fas fa-plus text-light new-note"></i>
+        <button class="fas fa-save text-light save-note" method="POST"></button>
+        <button class="fas fa-plus text-light new-note" method="POST"></button>
       </div>
     </nav>
     <div class="container-fluid">
@@ -28,19 +28,19 @@
         <div class="col-4 list-container">
           <div class="card">
             <ul class="list-group"></ul>
+              <li class="list-group-item"></li>
           </div>
         </div>
         <div class="col-8">
-          <input
-            class="note-title"
-            placeholder="Note Title"
-            maxlength="28"
-            type="text"
-          />
-          <textarea class="note-textarea" placeholder="Note Text"></textarea>
+          <form action="/notes" method="post">
+          <input name="title"/>
+          <input name="text"/>
+          <button type="submit">Save Note</button>
+          <button type="reset">New Note</button>
+          </form>
         </div>
       </div>
     </div>
-    <script src="/assets/js/index.js"></script>
+    <script src="../db/notes.js"></script>
   </body>
 </html>
