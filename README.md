@@ -35,7 +35,7 @@ N/A
 ![alt Preview of application](./public/assets/images/preview1.JPG)
 ![alt Preview of application](./public/assets/images/preview2.JPG)
 ![alt Preview of application](./public/assets/images/preview3.JPG)
-![alt Preview of application](./public/assets/images/preview3.JPG)
+![alt Preview of application](./public/assets/images/preview4.JPG)
 
 <a name="installation"/>
 
