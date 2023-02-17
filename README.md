@@ -43,7 +43,7 @@ N/A
 
 This project can be cloned from my GitHub repo link found at the bottom of this project's README file. Once installed node, package.json files, and express.js are required to be installed to be able to run this. In the future will also be available via a URL to the Heroku deployment.
 
-Once cloned a command of node install can be run in the terminal to install the necessary dependencies of this project.
+Once cloned a command of node install can be run in the terminal to install the necessary dependencies of this project. After installation, a command of npm start can be run in the terminal to begin hosting locally.
 
 <a name="usage"/>
 
